@@ -1,0 +1,20 @@
+:root {
+    --red: #D62823;
+    --pinkred : #ea354a;
+    --lightgrey: #26262f;
+    --darkgrey: #17171a;
+
+  }
+
+
+.App{
+    display: flex;
+}
+
+.sideSec{
+    width: 18%;
+}
+
+.mainSec{
+    width: 82%;
+}

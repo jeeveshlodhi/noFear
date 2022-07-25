@@ -1,0 +1,56 @@
+
+.sideBarWrapper{
+    width: 18%;
+    background-color: var(--lightgrey);
+    height: 100vh;
+    color: white;
+    position: fixed;
+}
+
+.logo{
+    color: var(--red);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: "BlackBones";
+    padding: 10px;
+}
+.sideMenuWrapper{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.sideMenuWrapper div{
+    display: grid;
+    grid-template-columns: 50px 100px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #818181;
+}
+.sideMenuWrapper div:hover{
+    color: white;
+}
+.sideIcon{
+    margin: 5px 10px;
+}
+.sideBarIcons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: #818181;
+    cursor: pointer;
+}
+.sideBarIcons >svg{
+    margin: 10px;
+}
+.sideBarIcons >svg:hover{
+    color: white;
+}
+.activeSide{
+    color: white !important;
+}
